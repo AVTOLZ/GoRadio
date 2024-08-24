@@ -12,8 +12,8 @@ func main() {
 	scheduler := cron.New()
 
 	scheduler.AddFunc("0 0 10 * * 1-5", break1)
-	scheduler.AddFunc("0 0 10 * * 1-5", break2)
-	scheduler.AddFunc("0 0 10 * * 1-5", break3)
+	scheduler.AddFunc("0 50 11 * * 1-5", break2)
+	scheduler.AddFunc("0 50 13 * * 1-5", break3)
 }
 
 func break1() {
