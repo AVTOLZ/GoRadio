@@ -1,5 +1,5 @@
 module github.com/AVTOLZ/GoRadio
 
-go 1.23.0
+go 1.22.1
 
 require github.com/robfig/cron v1.2.0
